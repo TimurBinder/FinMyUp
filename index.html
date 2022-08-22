@@ -1,0 +1,1144 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">
+        <div class="content">
+            <div class="wrapper">
+                <a href="#" class="header__logo__link"><img src="img/logo.svg" alt="" class="header__logo"></a>
+                <div class="header__menu">
+                    <a href="#traffic"class="header__menu__item">
+                        <div class="header__menu__item-block">Обучение
+                            <hr class="link-line">
+                        </div>
+                    </a>
+
+                    <a href="#slider"class="header__menu__item">
+                        <div class="header__menu__item-block">Отзывы
+                            <hr class="link-line">
+                        </div>
+                    </a>
+
+                    <a href="#footer"class="header__menu__item">
+                        <div class="header__menu__item-block">Контакты
+                            <hr class="link-line">
+                        </div>
+                    </a>
+                </div>
+                <div class="header__deadline">
+                    <div class="header__deadline__text">до конца акции</div>
+                    <div class="header__deadline__time" ><span class="deadline__time__units days"></span>:<span class="deadline__time__units hours"></span>:<span class="deadline__time__units minuts"></span>:<span class="deadline__time__units seconds"></span></div>
+                    <div class="header__deadline__unit"><span>дней</span><span>часов</span><span>минут</span><span>секунд</span></div>
+                </div>
+
+                <!-- <div class="header__deadline header__deadline__cut"> Счетчик без дней
+                    <div class="header__deadline__text">до конца акции</div>
+                    <div class="header__deadline__time"><span class="deadline__time__units hours"></span>:<span class="deadline__time__units minuts"></span>:<span class="deadline__time__units seconds"></span></div>
+                    <div class="header__deadline__unit"><span>часов</span><span>минут</span><span>секунд</span></div>
+                </div> -->
+            </div>
+        </div>
+    </header>
+    <section class="first-screen">
+        <div class="content">
+            <img src="img/firstScreen.png" alt="" class="first-screen__logo" id="first-screen-img" onmouseover="firstScreenOpOff()" onmouseout="firstScreenOpOn()">
+            <h1 class="first-screen__title">Узнай, как инвестировать в криптовалюту от 100$ и 
+                <span class="semi-bold">зарабатывать до 60% в месяц без рисков</span>
+            </h1>
+            <h1 class="first-screen__title first-screen__title-option">Как инвестировать в криптовалюту от 100$ 
+                <span class="semi-bold normal">и делать до 60% в месяц без рисков</span>
+            </h1>
+            <figure class="first-screen__submit">
+                <div class="submit__block">
+                    <a href="#" class="main-btn"><span class="main-btn-text">Обучение со скидкой -50%</span><span class="main-btn-text-option">Начать обучение со скидкой -50%</span></a>
+                    <div class="btn-arrow__block">
+                        <img src="img/arrow.svg" alt="" class="btn-arrow">
+                    </div>
+                </div>
+                <figcaption class="submit__caption">
+                    осталось всего 15 мест из 150 на февраль
+                </figcaption>
+            </figure>
+        </div>
+    </section>
+
+    <section class="speaker">
+        <img src="img/candles.png" alt="" class="section-head">
+        <div class="content">
+            <h2 class="section-title">Главный спикер</h2>
+            <div class="wrapper">
+                <img src="img/speaker.png" alt="" class="speaker__img" id="speaker-img" onmouseover="speakerOpOff()" onmouseout="speakerOpOn()">
+                <div class="speaker__offer">
+                    <p class="speaker__name">Артем Карпов</p>
+                    
+                    <p class="speaker__stat"><img src="img/statList.svg" alt="" class="speaker__stat__style">
+                        с 2011 года зарабатывает в интернете</p>
+                    
+                    <p class="speaker__stat"><img src="img/statList.svg" alt="" class="speaker__stat__style">
+                        8 лет торгует на рынке криптовалют</p>
+                    
+                    <p class="speaker__stat"><img src="img/statList.svg" alt="" class="speaker__stat__style">
+                        <span class="speaker__stat__main">2 года обучает торговле и инвестированию в криптовалюты</span><span class="speaker__stat__option">3 года обучает инвестированию в криптовалюты</span></p>
+                    
+                    <p class="speaker__stat"><img src="img/statList.svg" alt="" class="speaker__stat__style">
+                        обучил 1300+ учеников</p>
+                    
+                    <p class="speaker__stat"><img src="img/statList.svg" alt="" class="speaker__stat__style">
+                        лучший результат ученика 112% за месяц</p>
+                    
+                    <p class="speaker__stat"><img src="img/statList.svg" alt="" class="speaker__stat__style">
+                        помог ученикам заработать больше 10 000 000$ </p>
+                    
+                    <p class="speaker__stat"><img src="img/statList.svg" alt="" class="speaker__stat__style">
+                        провел 1000+ личных консультаций</p>
+
+                    <p class="speaker__sale"><a href="#" class="speaker__sale__link">Обучение со скидкой -50%</a></p>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="stats">
+        <div class="content">
+            <div class="wrapper">
+                <div class="stat-block" id="stat-line-id">
+                    <figure class="stat-num"><img src="img/line.png" alt="" class="stat-line"> <span id="stat1">1349</span> <img src="img/line.png" alt="" class="stat-line stat-line-right">
+                        <figcaption class="stat-caption">прошли обучение</figcaption>
+                    </figure>
+                </div>
+
+                <div class="stat-block">
+                    <figure class="stat-num"><img src="img/line.png" alt="" class="stat-line" > <span id="stat2">49 </span> <img src="img/line.png" alt="" class="stat-line">
+                        <figcaption class="stat-caption">сегодня купили курс</figcaption>
+                    </figure>
+                </div>
+
+                <div class="stat-block">
+                    <figure class="stat-num"><img src="img/line.png" alt="" class="stat-line" > <span id="stat3">15 </span> <img src="img/line.png" alt="" class="stat-line stat-line-right">
+                        <figcaption class="stat-caption">осталось мест на март</figcaption>
+                    </figure>
+                </div>
+
+                <div class="stat-block">
+                    <figure class="stat-num"><img src="img/line.png" alt="" class="stat-line" > <span id="stat4">112% </span><img src="img/line.png" alt="" class="stat-line">
+                        <figcaption class="stat-caption">лучшая прибыль ученика за месяц</figcaption>
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="training">
+        <img src="img/candles.png" alt="" class="section-head">
+        <div class="content">
+            <h2 class="section-title">Научитесь</h2>
+            <div class="wrapper">
+                <div class="training__card">
+                    <img src="img/invest.svg" alt="" class="training__card__img">
+                    <div class="training__card__offer">
+                        <p class="training__card__offer__title">Инвестировать</p>
+                        <p class="training__card__offer__subtitle">заработок до 25% в месяц</p>
+                        <p class="trainig__card__offer__item">- минимальный анализ</p>
+                        <p class="trainig__card__offer__item">- цикл сделки от 1 месяца</p>
+                        <p class="trainig__card__offer__item">- минимум вовлеченности</p>
+                    </div>
+                </div>
+
+                <div class="training__card">
+                    <img src="img/trade.svg" alt="" class="training__card__img">
+                    <div class="training__card__offer">
+                        <p class="training__card__offer__title">Торговать</p>
+                        <p class="training__card__offer__subtitle">зарабаток до 40% в месяц</p>
+                        <p class="trainig__card__offer__item">- активный анализ</p>
+                        <p class="trainig__card__offer__item">- цикл сделки от 1 дня</p>
+                        <p class="trainig__card__offer__item">- максимальнная вовлеченность</p>
+                    </div>
+                </div>
+
+                <div class="training__card">
+                    <img src="img/auto.svg" alt="" class="training__card__img">
+                    <div class="training__card__offer">
+                        <p class="training__card__offer__title">Автоматизировать</p>
+                        <p class="training__card__offer__subtitle">зарабаток до 60% в месяц</p>
+                        <p class="trainig__card__offer__item">- без анализа</p>
+                        <p class="trainig__card__offer__item">- цикл сделки от 5 секунд</p>
+                        <p class="trainig__card__offer__item">- без вовлеченности</p>
+                    </div>
+                </div>
+            </div>
+            <figure class="first-screen__submit">
+                <div class="submit__block">
+                    <a href="#" class="main-btn">Обучение со скидкой -50%</a>
+                    <div class="btn-arrow__block">
+                        <img src="img/arrow.svg" alt="" class="btn-arrow">
+                    </div>
+                </div>
+                <figcaption class="submit__caption">
+                    осталось всего 15 мест из 150 на февраль
+                </figcaption>
+            </figure>
+        </div>
+    </section>
+
+    <section class="partners">
+        <div class="content">
+            <div class="wrapper">
+                <h2 class="section-title">Наши партнеры</h2>
+                <img src="img/lineGold.svg" alt="" class="section-title__img">
+            </div>
+            <div class="wrapper">
+                <img src="img/Partners/binance.png" alt="" class="partners__img" id="binance" onmouseover="binanceOpOff()" onmouseout="binanceOpOn()">
+                <img src="img/Partners/huobi.png" alt="" class="partners__img partners__img__main" id="huobi" onmouseover="huobiOpOff()" onmouseout="huobiOpOn()">
+                <img src="img/Partners/coinbase.png" alt="" class="partners__img partners__img__option" onmouseover="coinbaseOpOff()" onmouseout="coinbaseOpOn()">
+                <img src="img/Partners/kraken.png" alt="" class="partners__img" id="kraken" onmouseover="krakenOpOff()" onmouseout="krakenOpOn()">
+                <img src="img/Partners/coinbase.png" alt="" class="partners__img" id="coinbase" onmouseover="coinbaseOpOff()" onmouseout="coinbaseOpOn()">
+            </div>
+        </div>
+    </section>
+
+    <section class="traffic" id="traffic">
+        <img src="img/candles.png" alt="" class="section-head">
+        <div class="content">
+            <h2 class="section-title">Обучение</h2>
+            <div class="traffic__table">
+                <div class="traffic__table__left">
+                    <div class="traffic__table__section">
+                        <div class="traffic__table__row traffic__table__head">
+                            <div class="traffic__table__definition">
+                                Доступные курсы
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="traffic__table__section__subtitle">
+                        Узнаешь (теория):
+                    </div>
+                    <div class="traffic__table__section">
+                        <div class="traffic__table__row">
+                            <div class="traffic__table__definition">
+                                1. Безопасные биржи для торговли 
+                                криптовалютой
+                            </div>
+                        </div>
+    
+                        <div class="traffic__table__row">
+                            <div class="traffic__table__definition">
+                                2. Трендовые инструменты для анализа рынка
+                            </div>
+                        </div>
+    
+                        <div class="traffic__table__row">
+                            <div class="traffic__table__definition">
+                                3. Виды заработка на рынке криптовалют
+                            </div>
+                        </div>
+    
+                        <div class="traffic__table__row">
+                            <div class="traffic__table__definition">
+                                4. ТОП-20 прибыльных криптовалют с ростом <span class="semi-bold">до 300% в год</span>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="traffic__table__section__subtitle">
+                        Научишься (практика):
+                    </div>
+                    <div class="traffic__table__section">
+                        <div class="traffic__table__row">
+                            <div class="traffic__table__definition">
+                                1. Анализировать рынок криптовалют
+                            </div>
+                        </div>
+    
+                        <div class="traffic__table__row">
+                            <div class="traffic__table__definition">
+                                2. <span class="semi-bold">Зарабатывать до 60%</span> в месяц на покупке и продаже криптовалюты
+                            </div>
+                        </div>
+    
+                        <div class="traffic__table__row">
+                            <div class="traffic__table__definition">
+                                3. Формировать портфель для <span class="semi-bold">долгосрочной торговли</span>
+                            </div>
+                        </div>
+    
+                        <div class="traffic__table__row">
+                            <div class="traffic__table__definition">
+                                4. Запускать <span class="semi-bold">криптовалютный робот</span> для торговли на автопилоте
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="traffic__table__section__subtitle">
+                        Бонусы:
+                    </div>
+                    <div class="traffic__table__section">
+                        <div class="traffic__table__row">
+                            <div class="traffic__table__definition">
+                                1. Домашнее задание для закрепления знаний
+                            </div>
+                        </div>
+    
+                        <div class="traffic__table__row">
+                            <div class="traffic__table__definition">
+                                2. Разбор и проверка домашнего задания <span class="semi-bold">с экспертом по видеосвязи</span>
+                            </div>
+                        </div>
+    
+                        <div class="traffic__table__row">
+                            <div class="traffic__table__definition">
+                                3. Доступ в закрытый чат с сигналами на 3 месяца <span class="semi-bold">[ценность 300$]</span>
+                            </div>
+                        </div>
+    
+                        <div class="traffic__table__row">
+                            <div class="traffic__table__definition">
+                                4. Таблица для ведения учета инвестиций (без этого инструмента уйдешь в минус) <span class="semi-bold">[ценность 200$]</span>
+                            </div>
+                        </div>
+    
+                        <div class="traffic__table__row">
+                            <div class="traffic__table__definition">
+                                5. Промокод на активацию криптовалютного робота для торговли на автопилоте <span class="semi-bold">[ценность 225$]</span>
+                            </div>
+                        </div>
+    
+                        <div class="traffic__table__row">
+                            <div class="traffic__table__definition">
+                                6. Личная консультация <span class="semi-bold">[ценность 350$]</span>
+                            </div>
+                        </div>
+    
+                        <div class="traffic__table__row">
+                            <div class="traffic__table__definition">
+                                <span class="semi-bold">Стоимость</span> курса:
+                            </div>
+                        </div>
+    
+                        <div class="traffic__table__row traffic__table__row__submit">
+                            <div class="traffic__table__definition none">
+                                <span class="semi-bold">Стоимость</span> курса:
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="traffic__table__right__wrap">
+                <div class="traffic__table__right">
+                    <div class="traffic__table__section">
+                        <div class="traffic__table__row traffic__table__head">
+                            <div class="traffic__table__value newbie newbie-head">
+                                <div class="traffic-stars">
+                                    <img src="img/star.png" alt="" class="star">
+                                    <img src="img/starEmpty.png" alt="" class="star">
+                                    <img src="img/starEmpty.png" alt="" class="star">
+                                </div>
+                                Новичок <span class="traffic__table__value__unit">[до 25%/м]</span>
+                            </div>
+        
+                            
+                            <div class="traffic__table__value investor investor-head">
+                                <div class="traffic-stars">
+                                    <img src="img/star.png" alt="" class="star">
+                                    <img src="img/star.png" alt="" class="star">
+                                    <img src="img/starEmpty.png" alt="" class="star">
+                                </div>
+                                Продвинутый <span class="traffic__table__value__unit">[до 40%/м]</span>
+                            </div>
+        
+                            
+                            <div class="traffic__table__value trader trader-head">
+                                <div class="traffic-stars">
+                                    <img src="img/star.png" alt="" class="star">
+                                    <img src="img/star.png" alt="" class="star">
+                                    <img src="img/star.png" alt="" class="star">
+                                </div>
+                                Трейдер <span class="traffic__table__value__unit">[до 60%/м]</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="traffic__table__section__subtitle hidden">
+                        Узнаешь (теория):
+                    </div>
+                    <div class="traffic__table__section">
+                        <div class="traffic__table__row">
+                            <div class="traffic__table__value newbie">
+                                <div class="traffic__table__value__img-block">
+                                    <img src="img/tick.svg" alt="" class="traffic__table__value__img traffic__table__value__img__lines__two">
+                                </div>                            </div>
+        
+                            
+                            <div class="traffic__table__value investor">
+                                <img src="img/tick.svg" alt="" class="traffic__table__value__img traffic__table__value__img__lines__two">
+                            </div>
+        
+                            
+                            <div class="traffic__table__value trader">
+                                <img src="img/tick.svg" alt="" class="traffic__table__value__img traffic__table__value__img__lines__two">
+                            </div>
+                        </div>
+    
+                        <div class="traffic__table__row">
+                            <div class="traffic__table__value newbie">
+                                <img src="img/tick.svg" alt="" class="traffic__table__value__img traffic__table__value__img__lines__two">
+                            </div>
+        
+                            
+                            <div class="traffic__table__value investor">
+                                <img src="img/tick.svg" alt="" class="traffic__table__value__img traffic__table__value__img__lines__two">
+                            </div>
+        
+                            
+                            <div class="traffic__table__value trader">
+                                <img src="img/tick.svg" alt="" class="traffic__table__value__img traffic__table__value__img__lines__two">
+                            </div>
+                        </div>
+    
+                        <div class="traffic__table__row">
+                            <div class="traffic__table__value newbie">
+                                <img src="img/tick.svg" alt="" class="traffic__table__value__img traffic__table__value__img__lines__two">
+                            </div>
+        
+                            
+                            <div class="traffic__table__value investor">
+                                <img src="img/tick.svg" alt="" class="traffic__table__value__img traffic__table__value__img__lines__two">
+                            </div>
+        
+                            
+                            <div class="traffic__table__value trader">
+                                <img src="img/tick.svg" alt="" class="traffic__table__value__img traffic__table__value__img__lines__two">
+                            </div>
+                        </div>
+    
+                        <div class="traffic__table__row">
+                            <div class="traffic__table__value newbie">
+                                <img src="img/cross.svg" alt="" class="traffic__table__value__img traffic__table__value__img__lines__two">
+                            </div>
+        
+                            
+                            <div class="traffic__table__value investor">
+                                <img src="img/tick.svg" alt="" class="traffic__table__value__img traffic__table__value__img__lines__two">
+                            </div>
+        
+                            
+                            <div class="traffic__table__value trader">
+                                <img src="img/tick.svg" alt="" class="traffic__table__value__img traffic__table__value__img__lines__two">
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="traffic__table__section__subtitle hidden">
+                        Научишься (практика):
+                    </div>
+                    <div class="traffic__table__section">
+                        <div class="traffic__table__row">
+                            <div class="traffic__table__value newbie">
+                                <img src="img/tick.svg" alt="" class="traffic__table__value__img traffic__table__value__img__lines__one">
+                            </div>
+        
+                            
+                            <div class="traffic__table__value investor">
+                                <img src="img/tick.svg" alt="" class="traffic__table__value__img traffic__table__value__img__lines__one">
+                            </div>
+        
+                            
+                            <div class="traffic__table__value trader">
+                                <img src="img/tick.svg" alt="" class="traffic__table__value__img traffic__table__value__img__lines__one">
+                            </div>
+                        </div>
+    
+                        <div class="traffic__table__row">
+                            <div class="traffic__table__value newbie">
+                                <img src="img/tick.svg" alt="" class="traffic__table__value__img traffic__table__value__img__lines__two">
+                            </div>
+        
+                            
+                            <div class="traffic__table__value investor">
+                                <img src="img/tick.svg" alt="" class="traffic__table__value__img traffic__table__value__img__lines__two">
+                            </div>
+        
+                            
+                            <div class="traffic__table__value trader">
+                                <img src="img/tick.svg" alt="" class="traffic__table__value__img traffic__table__value__img__lines__two">
+                            </div>
+                        </div>
+    
+                        <div class="traffic__table__row">
+                            <div class="traffic__table__value newbie">
+                                <img src="img/cross.svg" alt="" class="traffic__table__value__img traffic__table__value__img__lines__two">
+                            </div>
+        
+                            
+                            <div class="traffic__table__value investor">
+                                <img src="img/tick.svg" alt="" class="traffic__table__value__img traffic__table__value__img__lines__two">
+                            </div>
+        
+                            
+                            <div class="traffic__table__value trader">
+                                <img src="img/tick.svg" alt="" class="traffic__table__value__img traffic__table__value__img__lines__two">
+                            </div>
+                        </div>
+    
+                        <div class="traffic__table__row">
+                            <div class="traffic__table__value newbie">
+                                <img src="img/cross.svg" alt="" class="traffic__table__value__img traffic__table__value__img__lines__two">
+                            </div>
+        
+                            
+                            <div class="traffic__table__value investor">
+                                <img src="img/cross.svg" alt="" class="traffic__table__value__img traffic__table__value__img__lines__two">
+                            </div>
+        
+                            
+                            <div class="traffic__table__value trader">
+                                <img src="img/tick.svg" alt="" class="traffic__table__value__img traffic__table__value__img__lines__two">
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="traffic__table__section__subtitle hidden">
+                        Бонусы:
+                    </div>
+                    <div class="traffic__table__section">
+                        <div class="traffic__table__row">
+                            <div class="traffic__table__value newbie">
+                                <img src="img/tick.svg" alt="" class="traffic__table__value__img traffic__table__value__img__lines__two">
+                            </div>
+        
+                            
+                            <div class="traffic__table__value investor">
+                                <img src="img/tick.svg" alt="" class="traffic__table__value__img traffic__table__value__img__lines__two">
+                            </div>
+        
+                            
+                            <div class="traffic__table__value trader">
+                                <img src="img/tick.svg" alt="" class="traffic__table__value__img traffic__table__value__img__lines__two">
+                            </div>
+                        </div>
+    
+                        <div class="traffic__table__row">
+                            <div class="traffic__table__value newbie">
+                                <img src="img/tick.svg" alt="" class="traffic__table__value__img traffic__table__value__img__lines__two">
+                            </div>
+        
+                            
+                            <div class="traffic__table__value investor">
+                                <img src="img/tick.svg" alt="" class="traffic__table__value__img traffic__table__value__img__lines__two">
+                            </div>
+        
+                            
+                            <div class="traffic__table__value trader">
+                                <img src="img/tick.svg" alt="" class="traffic__table__value__img traffic__table__value__img__lines__two">
+                            </div>
+                        </div>
+    
+                        <div class="traffic__table__row">
+                            <div class="traffic__table__value newbie">
+                                <img src="img/cross.svg" alt="" class="traffic__table__value__img traffic__table__value__img__lines__two">
+                            </div>
+        
+                            
+                            <div class="traffic__table__value investor">
+                                <img src="img/tick.svg" alt="" class="traffic__table__value__img traffic__table__value__img__lines__two">
+                            </div>
+        
+                            
+                            <div class="traffic__table__value trader">
+                                <img src="img/tick.svg" alt="" class="traffic__table__value__img traffic__table__value__img__lines__two">
+                            </div>
+                        </div>
+    
+                        <div class="traffic__table__row">
+                            <div class="traffic__table__value newbie">
+                                <img src="img/cross.svg" alt="" class="traffic__table__value__img traffic__table__value__img__lines__three">
+                            </div>
+        
+                            
+                            <div class="traffic__table__value investor">
+                                <img src="img/cross.svg" alt="" class="traffic__table__value__img traffic__table__value__img__lines__three">
+                            </div>
+        
+                            
+                            <div class="traffic__table__value trader">
+                                <img src="img/tick.svg" alt="" class="traffic__table__value__img traffic__table__value__img__lines__three">
+                            </div>
+                        </div>
+    
+                        <div class="traffic__table__row">
+        
+                            <div class="traffic__table__value newbie">
+                                <img src="img/cross.svg" alt="" class="traffic__table__value__img traffic__table__value__img__lines__three">
+                            </div>
+        
+                            
+                            <div class="traffic__table__value investor">
+                                <img src="img/cross.svg" alt="" class="traffic__table__value__img traffic__table__value__img__lines__three">
+                            </div>
+        
+                            
+                            <div class="traffic__table__value trader">
+                                <img src="img/tick.svg" alt="" class="traffic__table__value__img traffic__table__value__img__lines__three">
+                            </div>
+                        </div>
+    
+                        <div class="traffic__table__row">
+        
+                            <div class="traffic__table__value newbie">
+                                <img src="img/cross.svg" alt="" class="traffic__table__value__img traffic__table__value__img__lines__two">
+                            </div>
+        
+                            
+                            <div class="traffic__table__value investor">
+                                <img src="img/cross.svg" alt="" class="traffic__table__value__img traffic__table__value__img__lines__two">
+                            </div>
+        
+                            
+                            <div class="traffic__table__value trader">
+                                <img src="img/tick.svg" alt="" class="traffic__table__value__img traffic__table__value__img__lines__two">
+                            </div>
+                        </div>
+    
+                        <div class="traffic__table__row">
+        
+                            <div class="traffic__table__value newbie">
+                                <div class="traffic__table__value__price-block">
+                                    <span class="traffic__table__value__price">90$</span>
+                                    <span class="traffic__table__value__old-price">120$</span>
+                                </div>
+                            </div>
+        
+                            
+                            <div class="traffic__table__value investor">
+                                <div class="traffic__table__value__price-block">
+                                    <span class="traffic__table__value__price">290$</span>
+                                    <span class="traffic__table__value__old-price">500$</span>
+                                </div>                     
+                            </div>
+        
+                            
+                            <div class="traffic__table__value trader">
+                                <div class="traffic__table__value__price-block">
+                                    <span class="traffic__table__value__price">590$</span>
+                                    <span class="traffic__table__value__old-price">1200$</span>
+                                </div>                        
+                            </div>
+                        </div>
+    
+                        <div class="traffic__table__row traffic__table__row__submit">
+        
+                            <div class="traffic__table__value traffic__table__value__submit  newbie">
+                                <div class="traffic__table__value__price-block traffic__table__value__submit__block">
+                                    <figure class="traffic__submit">
+                                        <div class="submit__block">
+                                            <a href="#" class="main-btn traffic__newbie__btn"><span class="traffic__main__btn">Заказать курс -25%</span><span class="traffic__option__btn">Начать</span></a>
+                                        </div>
+                                        <hr class="traffic__btn__line">
+                                        <div class="traffic__btn__line"></div>
+                                        <figcaption class="submit__caption">
+                                            осталось 5 мест на февраль 
+                                        </figcaption>
+                                    </figure>
+                                </div>
+                            </div>
+        
+                            
+                            <div class="traffic__table__value traffic__table__value__submit investor">
+                                <div class="traffic__table__value__price-block traffic__table__value__submit__block">
+                                    <figure class="traffic__submit">
+                                        <div class="submit__block">
+                                            <a href="#" class="main-btn traffic__investor__btn"><span class="traffic__main__btn">Заказать курс -40%</span><span class="traffic__option__btn">Начать</span></a>
+                                        </div>
+                                        <hr class="traffic__btn__line">
+                                        <figcaption class="submit__caption">
+                                            осталось 3 мест на февраль 
+                                        </figcaption>
+                                    </figure>
+                                </div>                     
+                            </div>
+        
+                            
+                            <div class="traffic__table__value traffic__table__value__submit trader">
+                                <div class="traffic__table__value__price-block traffic__table__value__submit__block">
+                                    <figure class="traffic__submit">
+                                        <div class="submit__block">
+                                            <a href="#" class="main-btn traffic__trader__btn"><span class="traffic__main__btn">Заказать курс -50%</span><span class="traffic__option__btn">Начать</span></a>
+                                        </div>
+                                        <hr class="traffic__btn__line">
+                                        <figcaption class="submit__caption">
+                                            осталось 9 мест на февраль 
+                                        </figcaption>
+                                    </figure>
+                                </div>                       
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="partners tell">
+        <div class="content">
+            <div class="wrapper">
+                <h2 class="section-title">О нас говорят</h2>
+                <img src="img/lineGold.svg" alt="" class="section-title__img">
+            </div>
+            <div class="wrapper">
+                <img src="img/Partners/rbk.png" alt="" class="partners__img" id="rbk" onmouseover="rbkOpOff()" onmouseout="rbkOpOn()">
+                <img src="img/Partners/tch.png" alt="" class="partners__img" id="tch" onmouseover="tchOpOff()" onmouseout="tchOpOn()">
+                <img src="img/Partners/money.png" alt="" class="partners__img" id="money" onmouseover="moneyOpOff()" onmouseout="moneyOpOn()">
+                <img src="img/Partners/unews.png" alt="" class="partners__img partners__img__main" id="unews" onmouseover="unewsOpOff()" onmouseout="unewsOpOn()">
+            </div>
+        </div>
+    </section>
+
+    <section class="reviews slide1" id="slider">
+        <img src="img/candles.png" alt="" class="section-head">
+        <div class="content">
+            <h2 class="section-title">Отзывы</h2>
+            <!-- Карточки отзывов -->
+            <div class="wrapper">
+                <img src="img/reviewArrowLeft.svg" alt="" class="review__arrow review__arrow-left" onclick="slideInd(-1)"> 
+                <div class="review-slider">
+                    <div class="review-person">
+                        <img src="img/review.png" alt="" class="review-person__img slider-img"  onmouseover="reviewOpOff()" onmouseout="reviewOpOn()">
+                        <div class="review-person__offer">
+                            <figure class="review-person__offer__title">
+                                <span class="review-person__offer__name"><span class="slider-title">Алексей Кинг</span>, <span class="old">29 лет</span></span>
+                                <figcaption class="review-person__offer__title__caption">
+                                    <img src="img/reviewIcon.svg" alt="" class="review-person__offer__title__caption__icon">
+                                    <span class="review-person__offer__profession">сфера деятельности: <span class="medium black profession">менеджер по продажам</span></span>
+                                </figcaption>
+                            </figure>
+                            <p class="review-person__offer__intro" id="slider-intro">Спасибо FinMyUp за то, что провели <span class="underline">консультацию PRO</span> по заработку на рынке криптовалют. 
+                                Теперь в среднем я получаю 25% ежемесячно чистой прибыли с моих инвестиций. 
+                                <span class="review__intro__option">Вышел я на такой результат сразу после консультации.</span>
+                            </p>
+
+                            <p class="speaker__sale review-person__cta"><a href="#" class="review-person__cta-link">Смотреть интервью</a></p>
+                        </div>
+                    </div>
+                    <!-- -------------------------------------------- -->
+                    <div class="review-person review-person__option">
+                        <img src="img/review.png" alt="" class="review-person__img slider-img" onmouseover="reviewOpOff()" onmouseout="reviewOpOn()">
+                        <div class="review-person__offer">
+                            <figure class="review-person__offer__title">
+                                <span class="review-person__offer__name"><span id="slider-title">Имя 2</span>, <span class="old">29 лет</span></span>
+                                <figcaption class="review-person__offer__title__caption">
+                                    <img src="img/reviewIcon.svg" alt="" class="review-person__offer__title__caption__icon">
+                                    <span class="review-person__offer__profession">сфера деятельности: <span class="medium black profession">менеджер по продажам</span></span>
+                                </figcaption>
+                            </figure>
+                            <p class="review-person__offer__intro" id="slider-intro">Спасибо FinMyUp за то, что провели <span class="underline">консультацию PRO</span> по заработку на рынке криптовалют. 
+                                Теперь в среднем я получаю 25% ежемесячно чистой прибыли с моих инвестиций. 
+                                <span class="review__intro__option">Вышел я на такой результат сразу после консультации.</span>
+                            </p>
+
+                            <p class="speaker__sale review-person__cta"><a href="#" class="review-person__cta-link">Смотреть интервью</a></p>
+                        </div>
+                    </div>
+                    <!-- -------------------------------------------- -->
+                    <div class="review-person review-person__option">
+                        <img src="img/review.png" alt="" class="review-person__img slider-img" onmouseover="reviewOpOff()" onmouseout="reviewOpOn()">
+                        <div class="review-person__offer">
+                            <figure class="review-person__offer__title">
+                                <span class="review-person__offer__name"><span id="slider-title">Имя 3</span>, <span class="old">29 лет</span></span>
+                                <figcaption class="review-person__offer__title__caption">
+                                    <img src="img/reviewIcon.svg" alt="" class="review-person__offer__title__caption__icon">
+                                    <span class="review-person__offer__profession">сфера деятельности: <span class="medium black profession">менеджер по продажам</span></span>
+                                </figcaption>
+                            </figure>
+                            <p class="review-person__offer__intro" id="slider-intro">Спасибо FinMyUp за то, что провели <span class="underline">консультацию PRO</span> по заработку на рынке криптовалют. 
+                                Теперь в среднем я получаю 25% ежемесячно чистой прибыли с моих инвестиций. 
+                                <span class="review__intro__option">Вышел я на такой результат сразу после консультации.</span>
+                            </p>
+
+                            <p class="speaker__sale review-person__cta"><a href="#" class="review-person__cta-link">Смотреть интервью</a></p>
+                        </div>
+                    </div>
+                    <!-- -------------------------------------------- -->
+                    <div class="review-person review-person__option">
+                        <img src="img/review.png" alt="" class="review-person__img slider-img" onmouseover="reviewOpOff()" onmouseout="reviewOpOn()">
+                        <div class="review-person__offer">
+                            <figure class="review-person__offer__title">
+                                <span class="review-person__offer__name"><span id="slider-title">Имя4</span>, <span class="old">29 лет</span></span>
+                                <figcaption class="review-person__offer__title__caption">
+                                    <img src="img/reviewIcon.svg" alt="" class="review-person__offer__title__caption__icon">
+                                    <span class="review-person__offer__profession">сфера деятельности: <span class="medium black profession">менеджер по продажам</span></span>
+                                </figcaption>
+                            </figure>
+                            <p class="review-person__offer__intro" id="slider-intro">Спасибо FinMyUp за то, что провели <span class="underline">консультацию PRO</span> по заработку на рынке криптовалют. 
+                                Теперь в среднем я получаю 25% ежемесячно чистой прибыли с моих инвестиций. 
+                                <span class="review__intro__option">Вышел я на такой результат сразу после консультации.</span>
+                            </p>
+
+                            <p class="speaker__sale review-person__cta"><a href="#" class="review-person__cta-link">Смотреть интервью</a></p>
+                        </div>
+                    </div>
+                    <!-- -------------------------------------------- -->
+                    <div class="review-person review-person__option">
+                        <img src="img/review.png" alt="" class="review-person__img slider-img" onmouseover="reviewOpOff()" onmouseout="reviewOpOn()">
+                        <div class="review-person__offer">
+                            <figure class="review-person__offer__title">
+                                <span class="review-person__offer__name"><span id="slider-title">Имя 5</span>, <span class="old">29 лет</span></span>
+                                <figcaption class="review-person__offer__title__caption">
+                                    <img src="img/reviewIcon.svg" alt="" class="review-person__offer__title__caption__icon">
+                                    <span class="review-person__offer__profession">сфера деятельности: <span class="medium black profession">менеджер по продажам</span></span>
+                                </figcaption>
+                            </figure>
+                            <p class="review-person__offer__intro" id="slider-intro">Спасибо FinMyUp за то, что провели <span class="underline">консультацию PRO</span> по заработку на рынке криптовалют. 
+                                Теперь в среднем я получаю 25% ежемесячно чистой прибыли с моих инвестиций. 
+                                <span class="review__intro__option">Вышел я на такой результат сразу после консультации.</span>
+                            </p>
+                            <!-- -------------------------------------------- -->
+                            <p class="speaker__sale review-person__cta"><a href="#" class="review-person__cta-link">Смотреть интервью</a></p>
+                        </div>
+                    </div>
+                </div>
+                <img src="img/reviewArrowRight.svg" alt="" class="review__arrow review__arrow-right" onclick="slideInd(1)">
+            </div>
+            <div class="slider">
+                <div class="circle" onclick="changeIndCircle(0)"></div>
+                <div class="circle" onclick="changeIndCircle(1)"></div>
+                <div class="circle" onclick="changeIndCircle(2)"></div>
+                <div class="circle" onclick="changeIndCircle(3)"></div>
+                <div class="circle" onclick="changeIndCircle(4)"></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="stocks">
+        <div class="content">
+            <div class="wrapper">
+                <div class="stocks__title">
+                    <h2 class="section-title">Акции</h2>
+                    <img src="img/lineGold.svg" alt="" class="section-title__img">
+                </div>
+                <div class="header__deadline stocks__deadline">
+                    <div class="header__deadline__text stocks__deadline__text">осталось до конца</div>
+                    <div class="header__deadline__time stocks__deadline__time"><span class="deadline__time__units days"></span>:<span class="deadline__time__units hours"></span>:<span class="deadline__time__units minuts"></span>:<span class="deadline__time__units seconds"></span></div>
+                    <div class="header__deadline__unit stocks__deadline__unit"><span>дней</span><span>часов</span><span>минут</span><span>секунд</span></div>
+                </div>
+            </div>
+
+            <div class="wrapper"> 
+                <div class="card card__newbie">
+                    <div class="card__head">
+                        <div class="card__head__stars traffic-stars">
+                            <img src="img/star.png" alt="" class="star">
+                            <img src="img/starEmpty.png" alt="" class="star">
+                            <img src="img/starEmpty.png" alt="" class="star">
+                        </div>
+                        
+                        <div class="card__head__name">
+                            <span class="card__head__course">Курс</span>
+                            Новичок
+                        </div>
+                        <span class="card__head__unit">
+                            [до 25%/м]
+                        </span>
+                    </div>
+                    <div class="card__row">
+                        <div class="card__target">
+                            <p class="card__text">Научишься зарабатывать до 25% в месяц</p>
+                            <p class="card__text__caption">Начни инвестировать в криптовалюту</p>
+                        </div>
+                        <div class="card__lessons">
+                            <span class="card__text">Теория: 5 уроков <span class="light">(2 часа)</span></span>
+                            <img src="img/cardArrow.svg" alt="" class="card__arrow">
+                        </div>
+                        <div class="card__lessons">
+                            <span class="card__text">Практика: 2 урока <span class="light">(2 часа)</span></span>
+                            <img src="img/cardArrow.svg" alt="" class="card__arrow">
+                        </div>
+                    </div>
+                    <div class="card__row">
+                        <div class="card__price__block">
+                            <span class="light">Стоимость: </span> 
+                            <span class="card__price">90$</span> 
+                            <span class="card__old-price">120$</span>
+                        </div>
+                        
+                        <figure class="traffic__submit">
+                            <div class="submit__block">
+                                <a href="#" class="main-btn card__newbie__btn">Заказать со скидкой -25%</a>
+                            </div>
+                            <hr class="traffic__btn__line">
+                            <figcaption class="submit__caption">
+                                осталось 7 мест на февраль 
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+
+                <div class="card card__investor">
+                    <div class="card__head">
+                        <div class="card__head__stars traffic-stars">
+                            <img src="img/star.png" alt="" class="star">
+                            <img src="img/star.png" alt="" class="star">
+                            <img src="img/starEmpty.png" alt="" class="star">
+                        </div>
+                        
+                        <div class="card__head__name">
+                            <span class="card__head__course">Курс</span>
+                            Инвестор
+                        </div>
+                        <span class="card__head__unit">
+                            [до 40%/м]
+                        </span>
+                    </div>
+                    <div class="card__row">
+                        <div class="card__target">
+                            <p class="card__text">Научишься зарабатывать до 40% в месяц</p>
+                            <p class="card__text__caption">Начни активно торговать криптовалютой</p>
+                        </div>
+                        <div class="card__lessons">
+                            <span class="card__text">Теория: 7 уроков <span class="light">(3 часа)</span></span>
+                            <img src="img/cardArrow.svg" alt="" class="card__arrow">
+                        </div>
+                        <div class="card__lessons">
+                            <span class="card__text">Практика: 3 урока <span class="light">(3 часа)</span></span>
+                            <img src="img/cardArrow.svg" alt="" class="card__arrow">
+                        </div>
+                        <div class="card__lessons">
+                            <span class="card__text">Бонусы: 4 <span class="light">(ценность <span class="line-through">500$</span>)</span></span>
+                            <img src="img/cardArrow.svg" alt="" class="card__arrow">
+                        </div>
+                    </div>
+                    <div class="card__row">
+                        <div class="card__price__block">
+                            <span class="light">Стоимость: </span> 
+                            <span class="card__price">290$</span> 
+                            <span class="card__old-price">500$</span>
+                        </div>
+                        
+                        <figure class="traffic__submit">
+                            <div class="submit__block">
+                                <a href="#" class="main-btn card__investor__btn">Заказать со скидкой -40%</a>
+                            </div>
+                            <hr class="traffic__btn__line">
+                            <figcaption class="submit__caption">
+                                осталось 3 места на февраль 
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+
+                <div class="card card__trader">
+                    <div class="card__head">
+                        <div class="card__head__stars traffic-stars">
+                            <img src="img/star.png" alt="" class="star">
+                            <img src="img/star.png" alt="" class="star">
+                            <img src="img/star.png" alt="" class="star">
+                        </div>
+                        
+                        <div class="card__head__name">
+                            <span class="card__head__course">Курс</span>
+                            Трейдер
+                        </div>
+                        <span class="card__head__unit">
+                            [до 60%/м]
+                        </span>
+                    </div>
+                    <div class="card__row">
+                        <div class="card__target">
+                            <p class="card__text">Научишься зарабатывать до 60% в месяц</p>
+                            <p class="card__text__caption">Настрой торговлю на автопилот</p>
+                        </div>
+                        <div class="card__lessons">
+                            <span class="card__text">Теория: 10 уроков <span class="light">(5 часов)</span></span>
+                            <img src="img/cardArrow.svg" alt="" class="card__arrow">
+                        </div>
+                        <div class="card__lessons">
+                            <span class="card__text">Практика: 4 урока <span class="light">(4 часа)</span></span>
+                            <img src="img/cardArrow.svg" alt="" class="card__arrow">
+                        </div>
+                        <div class="card__lessons">
+                            <span class="card__text">Бонусов: 5 <span class="light">(ценность <span class="line-through">1025$</span>)</span></span>
+                            <img src="img/cardArrow.svg" alt="" class="card__arrow">
+                        </div>
+                        <div class="card__lessons">
+                            <span class="card__text">Личная консультация <span class="light">(ценность <span class="line-through">350$</span>)</span></span>
+                            <img src="img/cardArrow.svg" alt="" class="card__arrow">
+                        </div>
+                    </div>
+                    <div class="card__row">
+                        <div class="card__price__block">
+                            <span class="light">Стоимость: </span> 
+                            <span class="card__price">90$</span> 
+                            <span class="card__old-price">120$</span>
+                        </div>
+                        
+                        <figure class="traffic__submit">
+                            <div class="submit__block">
+                                <a href="#" class="main-btn card__trader__btn">Заказать со скидкой -25%</a>
+                            </div>
+                            <hr class="traffic__btn__line">
+                            <figcaption class="submit__caption">
+                                осталось 7 мест на февраль 
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="publications">
+        <img src="img/candles.png" alt="" class="section-head">
+        <div class="content">
+            <h2 class="section-title">Публикации</h2>
+            <div class="wrapper">
+                <div class="publications__block">
+                    <div class="publications__block__head">
+                        <p class="publications__views">
+                            Просмотрено: 
+                            <span class="publications__views__num">1573</span>
+                        </p>
+                        <p class="publications__date">25.02.22</p>
+                    </div>
+                    <p class="publications__title">ТОП-10 ошибок новичка, который инвестирует в криптовалюту</p>
+                    <p class="publications__intro">Этот чек-лист позволит избежать 99% популярных ошибок 
+                    </p>
+                    <p class="speaker__sale review-person__cta publications__cta"><a href="#" class="review-person__cta-link">Читать</a></p>
+                </div>
+
+                <div class="publications__block">
+                    <div class="publications__block__head">
+                        <p class="publications__views">
+                            Просмотрено: 
+                            <span class="publications__views__num">1573</span>
+                        </p>
+                        <p class="publications__date">25.02.22</p>
+                    </div>
+                    <p class="publications__title">Как правильно составить и вести учет финансов в инвестициях?</p>
+                    <p class="publications__intro">Этот чек-лист позволит избежать 99% популярных ошибок 
+                    </p>
+                    <p class="speaker__sale review-person__cta publications__cta"><a href="#" class="review-person__cta-link">Читать</a></p>
+                </div>
+
+                <div class="publications__block">
+                    <div class="publications__block__head">
+                        <p class="publications__views">
+                            Просмотрено: 
+                            <span class="publications__views__num">1573</span>
+                        </p>
+                        <p class="publications__date">25.02.22</p>
+                    </div>
+                    <p class="publications__title">Что такое медвежый и бычий рынок?</p>
+                    <p class="publications__intro">Этот чек-лист позволит избежать 99% популярных ошибок 
+                    </p>
+                    <p class="speaker__sale review-person__cta publications__cta"><a href="#" class="review-person__cta-link">Читать</a></p>
+                </div>
+
+                <div class="publications__block">
+                    <div class="publications__block__head">
+                        <p class="publications__views">
+                            Просмотрено: 
+                            <span class="publications__views__num">1573</span>
+                        </p>
+                        <p class="publications__date">25.02.22</p>
+                    </div>
+                    <p class="publications__title">ТОП-10 ошибок новичка, который инвестирует в криптовалюту</p>
+                    <p class="publications__intro">Этот чек-лист позволит избежать 99% популярных ошибок 
+                    </p>
+                    <p class="speaker__sale review-person__cta publications__cta"><a href="#" class="review-person__cta-link">Читать</a></p>
+                </div>
+
+                <div class="publications__block">
+                    <div class="publications__block__head">
+                        <p class="publications__views">
+                            Просмотрено: 
+                            <span class="publications__views__num">1573</span>
+                        </p>
+                        <p class="publications__date">25.02.22</p>
+                    </div>
+                    <p class="publications__title">Как правильно составить и вести учет финансов в инвестициях?</p>
+                    <p class="publications__intro">Этот чек-лист позволит избежать 99% популярных ошибок 
+                    </p>
+                    <p class="speaker__sale review-person__cta publications__cta"><a href="#" class="review-person__cta-link">Читать</a></p>
+                </div>
+
+                <div class="publications__block">
+                    <div class="publications__block__head">
+                        <p class="publications__views">
+                            Просмотрено: 
+                            <span class="publications__views__num">1573</span>
+                        </p>
+                        <p class="publications__date">25.02.22</p>
+                    </div>
+                    <p class="publications__title">Что такое медвежый и бычий рынок?</p>
+                    <p class="publications__intro">Этот чек-лист позволит избежать 99% популярных ошибок 
+                    </p>
+                    <p class="speaker__sale review-person__cta publications__cta"><a href="#" class="review-person__cta-link">Читать</a></p>
+                </div>
+            </div>
+            <a href="#" class="publication__articles">Все статьи</a>
+        </div>
+    </section>
+
+    <section class="superoffers">
+        <div class="content">
+            <div class="stocks__title">
+                <h2 class="section-title">Суперпредложения</h2>
+                <img src="img/lineGold.svg" alt="" class="section-title__img">
+            </div>
+            
+            <div class="wrapper">
+                <div class="surprise__block">
+                    <img src="img/surprise.png" alt="" class="surprise__img">
+                    <div class="surprise__offer">
+                        <p class="surprise__title">Первый урок бесплатно</p>
+                    <p class="surprise__intro">научись зарабатывать уже сегодня</p>
+                    </div>
+                </div>
+                <figure class="first-screen__submit">
+                    <div class="submit__block">
+                        <a href="#" class="main-btn">Забрать урок за 0 грн</a>
+                        <div class="btn-arrow__block">
+                            <img src="img/arrowSuperoffer.svg" alt="" class="btn-arrow btn-arrow-main">
+                            <img src="img/superArrow.svg" alt="" class="btn-arrow btn-arrow-option">
+                        </div>
+                    </div>
+                    <figcaption class="submit__caption">
+                        количество ограничено
+                    </figcaption>
+                </figure>
+            </div>
+    </section>
+
+    <footer class="footer" id="footer">
+        <div class="content">
+            <div class="wrapper">
+                <div class="questions">
+                    <p class="contact__text">Вопросы и предложения:</p>
+                    <p class="contact">support@finmyup.com</p>
+                </div>
+    
+                <div class="copyright">
+                    <a href="#" class="copyright__politics">Оферта</a>
+                    <a href="#" class="copyright__politics">Отказ от ответственности</a>
+                </div>
+    
+                <div class="contacts">
+                    <p class="contact__text">Консультация по телефону:</p>
+                    <p class="contact">+380997778812</p>
+                </div>
+            </div>
+            <p href="#" class="copyright__text">Copyright © 2015-2022 FINMYUP All Rights Reserved.</p>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
